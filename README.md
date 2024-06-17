@@ -18,12 +18,17 @@ Burp Steps
 
 ```
 
-    Send any POST with an Aura endpoint to Repeater
-    Replace the “message” parameter in your request with the below options.
-    Send it to Intruder
-    Choose *** in the params (objectApiName, entityNameOrId) as the position in Intruder
-    Let “payload type” remain as Simple List
-    Upload the objects.txt file or paste the objects list in “payload options” and run it for all objects whenever possible
+    1. Send any POST with an Aura endpoint to Repeater
+
+    2. Replace the “message” parameter in your request with the below options.
+
+    3. Send it to Intruder
+
+    4. Choose *** in the params (objectApiName, entityNameOrId) as the position in Intruder
+
+    5. Let “payload type” remain as Simple List
+
+    6. Upload the objects.txt file or paste the objects list in “payload options” and run it for all objects whenever possible
 ```
 
 Note - You can fuzz them both as a guest user and as different authenticated users to understand permissions
